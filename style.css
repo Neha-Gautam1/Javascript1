@@ -1,0 +1,30 @@
+*{
+ 
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+.table{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:2rem;
+}
+h2{
+	text-align:center;
+	font-size:1.8rem;
+}
+input{
+ margin-left:27%;
+ width: 48%;
+ padding: 1rem;
+}
+th{
+	padding: 1rem;
+}
+td{
+	padding:1rem;
+	width: 100px;
+}
+tr:hover{
+	background-color:skyblue;
+}
